@@ -8,14 +8,37 @@
 
 
 .covidtext{
-    color: red;
+    color: #ff5e39;
     font-size: 1.5rem;
     padding-left: 10px;
 }
 section{
-  background-color: rgb(252, 246, 246);
+  background-color: #f1f1f1;
 }
-
+.stayhome{
+  color: #ff5e39;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+  color: #090E3F;
+  font-size: 17px;
+  font-weight: bold;
+  
+}
+.staysafe{
+  color: #090E3F;
+  font-size: 45px;
+}
+.paragraph1{
+  color: #090E3F;
+  font: 17px;
+}
+.button1{
+  background-color:red ;
+  color: #ffffff;
+  border-radius:5px;
+}
 
 
 
