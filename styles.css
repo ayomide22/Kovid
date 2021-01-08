@@ -14,11 +14,16 @@
 .covidtext{
     color: #ff5e39;
     font-size: 1.5rem;
-    padding-left: 10px;
+    padding-left: 40px;
     text-decoration: none;!important 
 }
 .mainbody1{
   background-color: #f1f1f1;
+
+}
+.section2{
+  padding-left: 380px;
+  padding-right:220px;
 }
 .stayhome{
   color: #ff5e39;
@@ -29,6 +34,7 @@
   color: #090E3F;
   font-size: 17px;
   font-weight:  bold;
+  padding-right: 30px;
   
 }
 .staysafe{
@@ -45,6 +51,7 @@
   border: 4px;
   padding: 10px  12px 12px 10px;
   font-size: 20px;
+  
 }
 .navbar-nav li{
   padding-right: 20px;
