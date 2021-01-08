@@ -6,14 +6,18 @@
     font-family: 'Poppins' , sans-serif;
     color:  #090E3F;
 }
-
+.mainbody{
+  border-radius: 0 0px 125px 0px;
+  background-color: #f1f1f1;
+}
 
 .covidtext{
     color: #ff5e39;
     font-size: 1.5rem;
     padding-left: 10px;
+    text-decoration: none;!important 
 }
-.mainbody{
+.mainbody1{
   background-color: #f1f1f1;
 }
 .stayhome{
@@ -24,19 +28,53 @@
 .nav-link{
   color: #090E3F;
   font-size: 17px;
-  font-weight:  light;
+  font-weight:  bold;
   
 }
 .staysafe{
   color: #090E3F;
   font-size: 45px;
+  width: 90%;
 }
 .paragraph1{
   color: #090E3F;
-  font: 17px;
+  font-size: 15px;
+}
+.btn-danger{
+  background-color:rgba(255,0,0 0 0.9);
+  border: 4px;
+  padding: 10px  12px 12px 10px;
+  font-size: 20px;
+}
+.navbar-nav li{
+  padding-right: 20px;
 }
 
-
+.btn-primary{
+  background-color: #ff5e3933;
+  border: 0;
+  border-radius: 10px;
+  color: #ff5e39;
+  font-size: 22px;
+  text-align: center;
+  padding: 15px 30px;
+}
+.btn-primary:hover{
+  background-color:  #ff5e3933;
+  color: #090E3F;
+}
+.play{
+ padding:30px;
+}
+button{
+  color: #ff5e39;
+  font-size: 20px;
+  padding:15px 20px;
+  border: 0;
+}
+button:hover{
+  color:#090E3F;
+}
 
 
 
