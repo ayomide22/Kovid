@@ -21,6 +21,23 @@
   background-color: #f1f1f1;
 
 }
+.goldline{
+  color: #ff5e39;
+  border-top: 4px solid #ff5e39;
+  width: 1%;
+  position:absolute;
+  margin-top:1.5px; 
+  border-radius: 2px;
+}
+.goldline1{
+  color: #ff5e39;
+  border-top: 4px solid #ff5e39;
+  width:4%;
+  position:absolute;
+  margin-top:1.5px; 
+  border-radius: 2px;
+}
+
 .section2{
   padding-left: 380px;
   padding-right:220px;
@@ -49,9 +66,12 @@
 .btn-danger{
   background-color:rgba(255,0,0 0 0.9);
   border: 4px;
-  padding: 10px  12px 12px 10px;
-  font-size: 20px;
-  
+  padding: 5px  5px 5px 5px;
+  font-size: 14px;
+  margin-top:0px;
+}
+.nav-link:hover: {
+  background-color:rgb(255,94,57);
 }
 .navbar-nav li{
   padding-right: 20px;
@@ -61,7 +81,7 @@
   background-color: #ff5e3933;
   border: 0;
   border-radius: 10px;
-  color: #ff5e39;
+  color:rgb(0,0,0,.55);
   font-size: 22px;
   text-align: center;
   padding: 15px 30px;
