@@ -62,6 +62,11 @@
 .paragraph1{
   color: #090E3F;
   font-size: 15px;
+  width: 70%;
+}
+.spreadtext{
+  font-size: 14px;
+  font-weight: lighter;
 }
 .btn-danger{
   background-color:rgba(255,0,0 0 0.9);
@@ -103,8 +108,19 @@ button{
 button:hover{
   color:#090E3F;
 }
-
-
+.text2{
+  width:50%;
+  font-size:14px;
+  font-weight: lighter;
+}
+.card-text{
+  font-size: 14px;
+}
+.mainbody2{
+  background-color: #f1f1f1;
+  border-radius: 0 0 0 125px;
+  width: 100%;
+}
 
 
 
