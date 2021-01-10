@@ -2,7 +2,6 @@
 
 
  body{
-    
     font-family: 'Poppins' , sans-serif;
     color:  #090E3F;
 }
@@ -15,7 +14,7 @@
     color: #ff5e39;
     font-size: 1.5rem;
     padding-left: 40px;
-    text-decoration: none;!important 
+    text-decoration: none !important;
 }
 .mainbody1{
   background-color: #f1f1f1;
@@ -52,6 +51,7 @@
   font-size: 17px;
   font-weight:  bold;
   padding-right: 30px;
+  border-radius: 4px;
   
 }
 .staysafe{
@@ -76,7 +76,7 @@
   margin-top:0px;
 }
 .nav-link:hover {
-  background-color:rgba(255,94,57, 0.8);
+  background-color:rgba(255,94,57, 0.3);
 }
 .navbar-nav li{
   padding-right: 20px;
@@ -133,7 +133,11 @@ button:hover{
   background-color: #f1f1f1;
   border: 0px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
- 
+}
+h4{
+  font-size: 12px;
+  text-align:center;
+  padding-top: 10px;
 }
 
 
