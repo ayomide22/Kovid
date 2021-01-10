@@ -75,8 +75,8 @@
   font-size: 14px;
   margin-top:0px;
 }
-.nav-link:hover: {
-  background-color:rgb(255,94,57);
+.nav-link:hover {
+  background-color:rgba(255,94,57, 0.8);
 }
 .navbar-nav li{
   padding-right: 20px;
@@ -133,8 +133,7 @@ button:hover{
   background-color: #f1f1f1;
   border: 0px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
-  
-  
+ 
 }
 
 
