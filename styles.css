@@ -140,6 +140,20 @@ h4{
   text-align:center;
   padding-top: 10px;
 }
+.goldline3{
+  color: #ff5e39;
+  border-top: 7px solid #ff5e39;
+  border-radius: 5px;
+  width: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.zoonotic{
+  font-size: 17px;
+  font-weight: lighter;
+  width:60%;
+ 
+}
 
 
 
