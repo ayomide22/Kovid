@@ -151,8 +151,15 @@ h4{
 .zoonotic{
   font-size: 17px;
   font-weight: lighter;
-  width:60%;
- 
+  width:50%;
+  position:absolute; 
+}
+.card-title{
+  text-align: center;
+}
+.prevented{
+  border-radius: 12px;
+  border-color: #f1f1f1;
 }
 
 
