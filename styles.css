@@ -164,6 +164,15 @@ h4{
 .hometext{
   font-size: 40px;
 }
+details > summary {
+  padding: 15px 10px;
+  max-width: max-content;
+  margin: 5px 0;
+  border: 1px solid rgba(255,170,57,0.4);
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+  border-bottom: 4px;
+}
 
 
 
