@@ -18,36 +18,36 @@
   <title>COVID-19</title>
 
   <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
-    <script type="text/javascript">
-        google.charts.load('current', {
-          'packages':['geochart'],
-          // Note: you will need to get a mapsApiKey for your project.
-          // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
-          'mapsApiKey': ''
-        });
-        google.charts.setOnLoadCallback(drawRegionsMap);
-  
-        function drawRegionsMap() {
-          var data = google.visualization.arrayToDataTable([
-            ['Country', 'Cases'],
-            ['Germany', 20000000],
-            ['United States', 30000000],
-            ['Brazil', 40000000],
-            ['Canada', 5000000],
-            ['France', 60909090],
-            ['RU', 700000],
-            ['Nigeria', 9868590]
-          ]);
-  
-          var options = {
-            colorAxis: {colors: ['#FED6D6', '#FF3D39', '#FF0000']}
-          };
-  
-          var chart = new google.visualization.GeoChart(document.getElementById('chart'));
-  
-          chart.draw(data, options);
-        }
-      </script>
+  <script type="text/javascript">
+    google.charts.load('current', {
+      'packages': ['geochart'],
+      // Note: you will need to get a mapsApiKey for your project.
+      // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+      'mapsApiKey': ''
+    });
+    google.charts.setOnLoadCallback(drawRegionsMap);
+
+    function drawRegionsMap() {
+      var data = google.visualization.arrayToDataTable([
+        ['Country', 'Cases'],
+        ['Germany', 20000000],
+        ['United States', 30000000],
+        ['Brazil', 40000000],
+        ['Canada', 5000000],
+        ['France', 60909090],
+        ['RU', 700000],
+        ['Nigeria', 9868590]
+      ]);
+
+      var options = {
+        colorAxis: { colors: ['#FED6D6', '#FF3D39', '#FF0000'] }
+      };
+
+      var chart = new google.visualization.GeoChart(document.getElementById('chart'));
+
+      chart.draw(data, options);
+    }
+  </script>
 </head>
 
 <body>
@@ -258,13 +258,13 @@
 
   <section>
     <div class="container">
-      <div class="text-center">
-        <h1>How can it be prevented?</h1>
-        <hr class="goldline3">
-        <p class="zoonotic">Coronaviruses are zoonotic, meaning they are transmitted between animals and people.<br>
-          Detailed investigations
-          found that SARS-COV2...</p>
-      </div>
+      <div class="">
+      <h1>How can it be prevented?</h1>
+      <hr class="goldline3">
+      <p class="zoonotic">Coronaviruses are zoonotic, meaning they are transmitted between animals and people.<br>
+        Detailed investigations
+        found that SARS-COV2...</p>
+    </div>
     </div>
   </section>
   <br><br><br><br><br>
