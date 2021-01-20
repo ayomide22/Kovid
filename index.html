@@ -16,6 +16,38 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;800&display=swap" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
   <title>COVID-19</title>
+
+  <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+    <script type="text/javascript">
+        google.charts.load('current', {
+          'packages':['geochart'],
+          // Note: you will need to get a mapsApiKey for your project.
+          // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+          'mapsApiKey': ''
+        });
+        google.charts.setOnLoadCallback(drawRegionsMap);
+  
+        function drawRegionsMap() {
+          var data = google.visualization.arrayToDataTable([
+            ['Country', 'Cases'],
+            ['Germany', 20000000],
+            ['United States', 30000000],
+            ['Brazil', 40000000],
+            ['Canada', 5000000],
+            ['France', 60909090],
+            ['RU', 700000],
+            ['Nigeria', 9868590]
+          ]);
+  
+          var options = {
+            colorAxis: {colors: ['#FED6D6', '#FF3D39', '#FF0000']}
+          };
+  
+          var chart = new google.visualization.GeoChart(document.getElementById('chart'));
+  
+          chart.draw(data, options);
+        }
+      </script>
 </head>
 
 <body>
@@ -303,14 +335,14 @@
               the
               risk of getting infected</p>
           </details>
-          
-            <details>
-              <summary>Stay away from elderly people</summary>
-              <p>These are vulnerable age groups and are more susceptible to infection especially covid-19. Risk for
-                severe illness with COVID-19 increases with age, with older adults at highest risk.</p>
-            </details>
 
-          
+          <details>
+            <summary>Stay away from elderly people</summary>
+            <p>These are vulnerable age groups and are more susceptible to infection especially covid-19. Risk for
+              severe illness with COVID-19 increases with age, with older adults at highest risk.</p>
+          </details>
+
+
           <div class="details">
             <details>
               <summary>Stay away from people with chronic conditions</summary>
@@ -328,7 +360,7 @@
             </details>
             <br><br><br>
             <a href="#"><button type="button" class="btn btn-primary btn-md">Learn More <img src="images/arrow.svg"
-              alt=""></button></a>
+                  alt=""></button></a>
           </div>
 
         </div>
@@ -343,10 +375,43 @@
         <div class="line2"></div>
         <p class="updated">Updated: 27 december 2020, 03:06 GMT +6</p><br>
         <a href="#"><button type="button" class="btn btn-primary btn-md">View tables <img src="images/arrow.svg"
-          alt=""></button></a>
+              alt=""></button></a>
+      </div>
     </div>
+    <div class="figures d-md-flex flex-row justify-content-evenly">
+      <div class="m-3 d-flex flex-row confirmed px-3 pt-2 justify-content-evenly">
+        <img class="img-fluid" width="56" height="72" src="images/confirmed.svg" alt="" />
+        <div class="mx-3">
+          <h2 class="con-figures">79,124,958</h2>
+          <p>Confirmed cases</p>
+        </div>
+      </div>
+      <div class="m-3 d-flex flex-row deaths px-3 pt-2 justify-content-evenly">
+        <img class="img-fluid " width="56" height="72" src="images/deat.svg" alt="" />
+        <div class="mx-3">
+          <h2 class="death-figures">1,738,968</h2>
+          <p>Total Deaths</p>
+        </div>
+      </div>
+      <div class="m-3 d-flex flex-row countries px-3 pt-2 justify-content-evenly">
+        <img class="img-fluid" width="56" height="72" src="images/flag.svg" alt="" />
+        <div class="mx-3">
+          <h2 class="countries-figures">219</h2>
+          <p>Affected Countries</p>
+        </div>
+      </div>
+      <div class="m-3 d-flex flex-row recovered px-3 pt-2 justify-content-evenly">
+        <img class="img-fluid " width="56" height="72" src="images/recover.svg" alt="" />
+        <div class="mx-3">
+          <h2 class="recovered-figures">55,712,732</h2>
+          <p>Total recovered</p>
+        </div>
+      </div>
     </div>
 
+    <!-- <div class="mt-5 mx-auto" id="chart_div" style="width: 900px; height: 500px;"></div> -->
+    <div class="mt-5 mx-auto d-none d-md-block" id="chart" style="width: 100%; height: 700px;"></div>
+    </div>
   </section>
 
 
